@@ -1,0 +1,21 @@
+.Heading {
+	border-bottom: 1px solid #dee2e6;
+	padding-top: 1rem;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 2rem;
+	margin-right: 2rem;
+
+	a {
+		text-decoration: none;
+		padding: 0.6rem 1.2rem;
+		color: #fff;
+		background-color: #007bff;
+		border-color: #007bff;
+		align-self: center;
+		-webkit-appearance: button;
+		border: none;
+		border-radius: 5px;
+		font-size: 1.1rem;
+	}
+}

@@ -1,0 +1,17 @@
+.admin {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-areas:
+		"appbar appbar appbar appbar"
+		"sidebar content content content";
+
+	&__appbar {
+		grid-area: appbar;
+	}
+	&__sidebar {
+		grid-area: sidebar;
+	}
+	&__content {
+		grid-area: content;
+	}
+}

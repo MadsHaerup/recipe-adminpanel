@@ -1,0 +1,41 @@
+.itembar {
+	display: grid;
+	margin-top: 1rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	grid-template-columns: auto 1fr;
+	&:nth-child(odd) {
+		background-color: #bcf85d9d;
+	}
+	&:nth-child(even) {
+		background-color: #dee2e6;
+	}
+	&__buttons {
+		place-self: center;
+		width: 50px;
+		a {
+			background-color: transparent;
+			border: none;
+			font-size: 1rem;
+			&:nth-child(1) {
+				color: #007bff;
+			}
+			&:nth-child(2) {
+				color: red;
+				padding: 0;
+			}
+		}
+	}
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		padding: 0.3rem 0 0.3rem 0;
+		margin: 0;
+
+		&__listItem {
+			justify-content: space-between;
+			list-style: none;
+			place-self: center;
+		}
+	}
+}

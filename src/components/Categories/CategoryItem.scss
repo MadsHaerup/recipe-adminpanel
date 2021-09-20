@@ -1,0 +1,20 @@
+.categoryItem {
+	display: grid;
+	place-self: center;
+	border-radius: 10px;
+	border: 2px solid #dee2e6;
+	height: 100px;
+	width: 200px;
+	place-items: center;
+	a {
+		text-decoration: none;
+		color: black;
+	}
+	&:hover {
+		transform: scale(1.1);
+		transition: transform ease-in-out 300ms;
+		font-weight: bold;
+		box-shadow: 0 0 0 3px rgb(20, 9, 116);
+		transition: box-shadow 180ms ease-in, font-weight ease-in-out 300ms 300ms;
+	}
+}
